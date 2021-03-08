@@ -1,0 +1,120 @@
+body {
+    color: black;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-size: cover;
+}
+
+#BTNcontainer {
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 20px;
+}
+
+#btn0 {
+    background-color: #E7EAEB;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#container {
+    width: 60%;
+    background-color: #ffffff;
+    border-top: #15c1e7 5px solid;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#btn0, #btn1, #btn2, #btn3, #btn4 {
+    border: none;
+    margin-bottom: 20px;
+}
+
+#btn1 {
+    float: right;
+    background-color: transparent;
+    color: grey;
+}
+
+#btn2, #btn3, #btn4 {
+    background-color: #15c1e7;
+    color: white;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 6px;
+    border: black;
+    width: 201px;
+    height: 60px;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+#startButton {
+    background-color: #15c1e7;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 60px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#btn2:hover, #btn3:hover, #btn4:hover, #startButton:hover {
+    background-color: #00d0ff;
+}
+
+#startMenuHeaderTxt {
+    font-weight: bold;
+    margin-top: 0;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+#startMenuHeaderTitle {
+    margin-bottom: 0;
+}
+
+#startMenuStatement {
+    color: #01b4dc;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+
+#startMenuFooterTxt {
+    display: inline-block;
+}
+
+#startMenuFooterTxt:hover {
+    border-bottom: black 1px solid;
+}
+
+#startMenu {
+    margin-left: 20px;
+}
+
+#title {
+    color: #01b4dc;
+    font-size: 32px;
+}
+
+#feedbackContainer p {
+    margin-bottom: 0;
+}
+
+#answerWrapper {
+    text-align: center;
+}
+
+#voteContainer {
+    max-width: 1004px;
+    margin: 20px;
+}
