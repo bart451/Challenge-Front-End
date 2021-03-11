@@ -76,6 +76,7 @@ document.getElementById("startButton").onclick = function () {
     }
 };
 
+
 //Weergeeft extra stellingen en laat een box zien onder de vraag
 function ExtraVragen() {
     document.getElementById("title").innerHTML = "Zijn er onderwerpen die u extra belangrijkt vindt?";
